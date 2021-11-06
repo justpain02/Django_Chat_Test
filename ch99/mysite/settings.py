@@ -133,4 +133,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 TEMPLATE_URL = '/templates/'
-TEMPLATE_DIRS = os.path.join(BASE_DIR, 'templates')
+TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'templates')]
